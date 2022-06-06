@@ -6,11 +6,24 @@
 		<title>proyecto basicas</title>
 	</head>
 	<body>
-        <a href="https://api.whatsapp.com/send?phone=573138201875"
-           class="btn-wsp" target="_blank">
-                <i class="icon_whatsapp"></i>
-        </a>
+
 		<div id="contenedor">
+            <img id="wpp-btn" src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png"
+           class="btn-wsp" target="_blank">
+             <img id="pp-btn" src="https://cdn-icons-png.flaticon.com/512/174/174861.png"
+           class="btn-pp" target="_blank">
+            
+            <script>
+                document.getElementById("wpp-btn").addEventListener("click", function(){
+                    window.open("https://api.whatsapp.com/send?phone=573184569467");
+
+                })
+                
+                 document.getElementById("pp-btn").addEventListener("click", function(){
+                    window.open("https://www.paypal.com/co/webapps/mpp/home?kid=p67128741798&gclid=Cj0KCQjw-daUBhCIARIsALbkjSbS-E7o4NHxV2f_OI4x_mL1tQdgQT3w80P6Mu5K_-cYTNYYA40mJjYaAsXHEALw_wcB&gclsrc=aw.ds");
+
+                })
+            </script>
 			<div id="calculadora">
 				<div id="resultado">
 					<div id="salida-texto">
@@ -29,7 +42,7 @@
 				</div>
 				<div id="teclado">
 					<button class="operador" id="borrar">C</button>
-					<button class="operador" d="raiz">&#8730;</button>
+					<button class="operador" d="chao">&#187;</button>
 					<button class="operador" id="%">%</button>
 					<button class="operador" id="/">&#247;</button>
 					<button class="numero" id="7">7</button>

@@ -81,8 +81,7 @@ microfono.onclick=function(){
 				 "entre":"/",
 				 "sobre":"/",
 				 "mod":"%",
-				 "raíz":"√",
-				 "raiz":"√",
+				 "chao":"»"
 				}
 	
 	reconocimiento.onresult = function(event){
